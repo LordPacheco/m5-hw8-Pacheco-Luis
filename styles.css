@@ -9,3 +9,56 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
+header {
+  background-color: #6003C3;
+  color: #FFFFFF;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+#message{
+  color: #6003C3;
+  text-align: center;
+}
+.boxes{
+display: inline-flex;
+justify-content: space-around;
+width:100%;
+}
+#box-1{
+  border-color: #6003C3;
+  border-style: solid;
+  background-color: #FCFF00;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #6003C3;
+  font-size: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+#box-2{
+  border-color: #6003C3;
+  border-style: solid;
+  background-color:var(--box-color-2);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #6003C3;
+  font-size: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)
+}
+#box-3{
+  border-color: #6003C3;
+  border-style: solid;
+  background-color:var(--box-color-3);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #6003C3;
+  font-size: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)
+}
